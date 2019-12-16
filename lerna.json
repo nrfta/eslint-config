@@ -1,0 +1,19 @@
+{
+  "version": "0.5.0",
+  "packages": [
+    "packages/*"
+  ],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {
+    "bootstrap": {
+      "npmClientArgs": [
+        "--frozen-lockfile",
+        "--non-interactive"
+      ]
+    },
+    "version": {
+      "message": ":zap: Publish %s"
+    }
+  }
+}

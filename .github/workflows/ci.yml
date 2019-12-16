@@ -1,0 +1,19 @@
+name: CI
+
+on: push
+
+jobs:
+  draftRelease:
+    runs-on: ubuntu-latest
+
+    name: Test
+    steps:
+      - uses: actions/checkout@master
+      - name: Install
+        uses: nuxt/actions-yarn@master
+        with:
+          args: install
+      - name: Lint
+        uses: nuxt/actions-yarn@master
+        with:
+          args: lint:js

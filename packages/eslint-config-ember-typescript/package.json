@@ -1,0 +1,16 @@
+{
+  "name": "@neighborly/eslint-config-ember-typescript",
+  "version": "0.5.0",
+  "description": "Neighborly's shared ESLint config for Ember with TypeScript",
+  "main": "index.js",
+  "repository": "https://github.com/neighborly/eslint-config",
+  "author": "Josemar Luedke <josemar@neighborly.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@neighborly/eslint-config-ember": "^0.5.0",
+    "@neighborly/eslint-config-typescript": "^0.5.0"
+  }
+}

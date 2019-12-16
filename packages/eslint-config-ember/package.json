@@ -1,0 +1,17 @@
+{
+  "name": "@neighborly/eslint-config-ember",
+  "version": "0.5.0",
+  "description": "Neighborly's shared ESLint config for Ember",
+  "main": "index.js",
+  "repository": "https://github.com/neighborly/eslint-config",
+  "author": "Josemar Luedke <josemar@neighborly.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@neighborly/eslint-config": "^0.5.0",
+    "eslint-plugin-ember": "^7.7.2",
+    "eslint-plugin-ember-best-practices": "^1.1.2"
+  }
+}
