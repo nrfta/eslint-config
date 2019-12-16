@@ -1,6 +1,6 @@
 {
   "name": "@neighborly/eslint-config-node",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Neighborly's shared ESLint config for node",
   "main": "index.js",
   "repository": "https://github.com/neighborly/eslint-config",
@@ -10,7 +10,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@neighborly/eslint-config": "^0.5.0",
+    "@neighborly/eslint-config": "^0.6.0",
     "eslint-plugin-node": "^10.0.0"
   }
 }
