@@ -6,7 +6,7 @@ module.exports = {
     browser: false
   },
   plugins: ['node'],
-  extends: ['@neighborly', 'plugin:node/recommended'],
+  extends: ['@underline', 'plugin:node/recommended'],
   rules: {
     'node/no-unpublished-require': 'off'
   },

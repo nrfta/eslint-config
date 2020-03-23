@@ -1,6 +1,6 @@
 'use strict';
 
 module.exports = {
-  extends: ['@neighborly/ember', '@neighborly/typescript'],
-  overrides: require('@neighborly/eslint-config-ember').overrides
+  extends: ['@underline/ember', '@underline/typescript'],
+  overrides: require('@underline/eslint-config-ember').overrides
 };

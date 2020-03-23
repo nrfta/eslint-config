@@ -3,17 +3,21 @@ name: CI
 on: push
 
 jobs:
-  draftRelease:
+  ci:
     runs-on: ubuntu-latest
 
     name: Test
     steps:
-      - uses: actions/checkout@master
-      - name: Install
-        uses: nuxt/actions-yarn@master
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
         with:
-          args: install
-      - name: Lint
-        uses: nuxt/actions-yarn@master
-        with:
-          args: lint:js
+          node-version: 12.x
+
+      - name: Install Yarn
+        run: npm install -g yarn
+
+      - name: Install Dependencies
+        run: yarn install
+
+      - name: Lint JS
+        run: yarn lint:js

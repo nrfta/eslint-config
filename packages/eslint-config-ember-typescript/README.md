@@ -1,11 +1,11 @@
-# @neighborly/eslint-config-ember-typescript
+# @underline/eslint-config-ember-typescript
 
-Neighborly's shared ESLint config for Ember.js & TypeScript.
+Underline's shared ESLint config for Ember.js & TypeScript.
 
-Combines `@neighborly/eslint-config-ember` and `@neighborly/eslint-config-typescript`.
+Combines `@underline/eslint-config-ember` and `@underline/eslint-config-typescript`.
 
 # License
 
-Copyright (c) 2019 Neighborly Corporation
+Copyright (c) 2019 Underline Corporation
 
-Licensed under the [MIT license](https://github.com/neighborly/eslint-config/blob/master/LICENSE.md).
+Licensed under the [MIT license](https://github.com/underline/eslint-config/blob/master/LICENSE.md).
