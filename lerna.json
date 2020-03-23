@@ -13,7 +13,7 @@
       ]
     },
     "version": {
-      "message": ":zap: Publish %s"
+      "message": "Publish %s"
     }
   }
 }

@@ -1,16 +1,16 @@
-# @neighborly/eslint-config
+# @underline/eslint-config
 
-Neighborly's shared ESLint config for Javascript, TypeScript, Node.js & Ember.js apps.
+Underline's shared ESLint config for Javascript, TypeScript, Node.js & Ember.js apps.
 
-- [**`@neighborly/eslint-config`**](/packages/eslint-config):
+- [**`@underline/eslint-config`**](/packages/eslint-config):
   The base config that all other configs extend from.
-- [**`@neighborly/eslint-config-node`**](/packages/eslint-config-node):
+- [**`@underline/eslint-config-node`**](/packages/eslint-config-node):
   Adds Node.js-specific rules and sets the environment.
-- [**`@neighborly/eslint-config-typescript`**](/packages/eslint-config-typescript):
+- [**`@underline/eslint-config-typescript`**](/packages/eslint-config-typescript):
   Adds support for parsing TypeScript, as well as TypeScript-specific rules.
-- [**`@neighborly/eslint-config-ember`**](/packages/eslint-config-ember):
+- [**`@underline/eslint-config-ember`**](/packages/eslint-config-ember):
   Adds Ember.js-specific rules.
-- [**`@neighborly/eslint-config-ember-typescript`**](/packages/eslint-config-ember-typescript):
+- [**`@underline/eslint-config-ember-typescript`**](/packages/eslint-config-ember-typescript):
   Combines `eslint-config-ember` and `eslint-config-typescript`.
 
 ## :exclamation: Requirements
@@ -24,7 +24,7 @@ This process is the same for any of the packages included here.
 ### 1. Install plugin
 
 ```shell
-yarn add --dev @neighborly/eslint-config
+yarn add --dev @underline/eslint-config
 ```
 
 ### 2. Modify your `.eslintrc.js`:
@@ -33,7 +33,7 @@ Shareable configs are designed to work with the extends feature of `.eslintrc` f
 
 ```js
 extends: [
-  '@neighborly/eslint-config'
+  '@underline/eslint-config'
 ]
 ```
 
@@ -48,12 +48,12 @@ Create a file in the root of your application named `.prettierrc.js` with the
 following content:
 
 ```js
-module.exports = require('@neighborly/eslint-config/.prettierrc.js');
+module.exports = require('@underline/eslint-config/.prettierrc.js');
 ```
 
 # License
 
-Copyright (c) 2019 Neighborly Corporation
+Copyright (c) 2020 Underline Infrastructure Inc.
 
 Licensed under the [MIT license](LICENSE.md).
 

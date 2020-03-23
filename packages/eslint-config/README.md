@@ -1,9 +1,9 @@
-# @neighborly/eslint-config
+# @underline/eslint-config
 
-Neighborly's base base config that all other configs extend from.
+Underline's base base config that all other configs extend from.
 
 # License
 
-Copyright (c) 2019 Neighborly Corporation
+Copyright (c) 2019 Underline Corporation
 
-Licensed under the [MIT license](https://github.com/neighborly/eslint-config/blob/master/LICENSE.md).
+Licensed under the [MIT license](https://github.com/underline/eslint-config/blob/master/LICENSE.md).

@@ -1,16 +1,16 @@
 {
-  "name": "@neighborly/eslint-config-ember-typescript",
+  "name": "@underline/eslint-config-ember-typescript",
   "version": "0.6.0",
-  "description": "Neighborly's shared ESLint config for Ember with TypeScript",
+  "description": "Underline's shared ESLint config for Ember with TypeScript",
   "main": "index.js",
-  "repository": "https://github.com/neighborly/eslint-config",
-  "author": "Josemar Luedke <josemar@neighborly.com>",
+  "repository": "https://github.com/underline/eslint-config",
+  "author": "Josemar Luedke <josemar@underline.com>",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@neighborly/eslint-config-ember": "^0.6.0",
-    "@neighborly/eslint-config-typescript": "^0.6.0"
+    "@underline/eslint-config-ember": "^0.6.0",
+    "@underline/eslint-config-typescript": "^0.6.0"
   }
 }

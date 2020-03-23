@@ -1,10 +1,10 @@
 {
-  "name": "@neighborly/eslint-config",
+  "name": "@underline/eslint-config",
   "version": "0.6.0",
-  "description": "Neighborly's shared ESLint config",
-  "repository": "https://github.com/neighborly/eslint-config",
+  "description": "Underline's shared ESLint config",
+  "repository": "https://github.com/underline/eslint-config",
   "license": "MIT",
-  "author": "Josemar Luedke <josemar@neighborly.com>",
+  "author": "Josemar Luedke <josemar@underline.com>",
   "main": "index.js",
   "publishConfig": {
     "access": "public"

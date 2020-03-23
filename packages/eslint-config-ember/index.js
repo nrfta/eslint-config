@@ -3,7 +3,7 @@
 module.exports = {
   plugins: ['ember', 'ember-best-practices'],
   extends: [
-    '@neighborly',
+    '@underline',
     'plugin:ember/recommended',
     'plugin:ember-best-practices/recommended'
   ],
