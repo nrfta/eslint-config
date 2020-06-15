@@ -28,9 +28,8 @@ module.exports = {
     '@typescript-eslint/no-non-null-assertion': 'error',
 
     // Warnings
-    '@typescript-eslint/ban-ts-ignore': 'warn',
+    '@typescript-eslint/ban-ts-comment': 'warn',
     '@typescript-eslint/array-type': 'warn',
-    '@typescript-eslint/generic-type-naming': 'warn',
     '@typescript-eslint/member-ordering': 'warn',
     '@typescript-eslint/no-extraneous-class': 'warn',
     '@typescript-eslint/no-for-in-array': 'warn',
