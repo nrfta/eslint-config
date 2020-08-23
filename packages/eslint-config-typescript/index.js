@@ -13,7 +13,6 @@ module.exports = {
     indent: 'off',
     '@typescript-eslint/indent': 'off', // Prettier already takes care of this.
     '@typescript-eslint/no-explicit-any': 'error',
-    '@typescript-eslint/explicit-function-return-type': 'error',
     '@typescript-eslint/no-parameter-properties': 'error',
     '@typescript-eslint/no-unused-vars': [
       'error',
@@ -28,14 +27,13 @@ module.exports = {
     '@typescript-eslint/no-non-null-assertion': 'error',
 
     // Warnings
+    '@typescript-eslint/explicit-function-return-type': 'warn',
     '@typescript-eslint/ban-ts-comment': 'warn',
     '@typescript-eslint/array-type': 'warn',
-    '@typescript-eslint/member-ordering': 'warn',
     '@typescript-eslint/no-extraneous-class': 'warn',
     '@typescript-eslint/no-for-in-array': 'warn',
     '@typescript-eslint/no-require-imports': 'warn',
     '@typescript-eslint/no-this-alias': 'warn',
-    '@typescript-eslint/no-type-alias': 'warn',
     '@typescript-eslint/no-unnecessary-qualifier': 'warn',
     '@typescript-eslint/no-unnecessary-type-assertion': 'warn',
     '@typescript-eslint/prefer-function-type': 'warn',
