@@ -1,6 +1,6 @@
 {
   "name": "@underline/eslint-config-typescript",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "description": "Underline's shared ESLint config for TypeScript",
   "main": "index.js",
   "repository": "https://github.com/underline/eslint-config",
