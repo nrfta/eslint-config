@@ -33,7 +33,6 @@ module.exports = {
 
     // Same thing
     'ember-best-practices/no-broken-super-chain': 'off',
-    'ember/require-super-in-init': 'error',
 
     // Same thing
     'ember-best-practices/no-global-jquery': 'off',
