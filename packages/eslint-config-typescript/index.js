@@ -7,7 +7,7 @@ module.exports = {
     '@underline',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
-    'prettier/@typescript-eslint'
+    'prettier'
   ],
   rules: {
     indent: 'off',
