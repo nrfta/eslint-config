@@ -8,4 +8,4 @@ Adds Node.js-specific rules and sets the environment.
 
 Copyright (c) 2019 Underline Corporation
 
-Licensed under the [MIT license](https://github.com/underline/eslint-config/blob/master/LICENSE.md).
+Licensed under the [MIT license](https://github.com/underline/eslint-config/blob/main/LICENSE.md).
