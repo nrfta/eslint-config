@@ -19,6 +19,8 @@ module.exports = {
     'ember/no-unnecessary-route-path-option': 'error',
     'ember/no-test-and-then': 'error',
 
+    'ember/no-empty-glimmer-component-classes': 'off',
+
     // Same thing
     'ember-best-practices/no-observers': 'off',
     'ember/no-observers': 'error',
