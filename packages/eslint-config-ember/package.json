@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@underline/eslint-config": "^0.11.0",
-    "eslint-plugin-ember": "^10.5.3",
+    "eslint-plugin-ember": "^10.5.7",
     "eslint-plugin-ember-best-practices": "^1.1.2"
   }
 }
