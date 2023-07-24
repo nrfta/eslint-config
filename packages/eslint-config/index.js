@@ -28,11 +28,8 @@ module.exports = {
       'error',
       'always',
       { exceptAfterSingleLine: true }
-    ], 
-
-    'no-console': [
-      'error', 
-      { allow: ['error', 'warn', 'info'] }
     ],
+
+    'no-console': ['error', { allow: ['error', 'warn', 'info'] }]
   }
 };
