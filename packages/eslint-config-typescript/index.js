@@ -39,7 +39,6 @@ module.exports = {
     '@typescript-eslint/no-for-in-array': 'warn',
     '@typescript-eslint/no-require-imports': 'warn',
     '@typescript-eslint/no-this-alias': 'warn',
-    '@typescript-eslint/no-unnecessary-qualifier': 'warn',
     '@typescript-eslint/prefer-function-type': 'warn'
   },
   overrides: [
