@@ -14,7 +14,7 @@ module.exports = {
     '@typescript-eslint/indent': 'off', // Prettier already takes care of this.
     '@typescript-eslint/no-explicit-any': 'error',
     '@typescript-eslint/parameter-properties': [
-      true,
+      'error',
       {
         prefer: ['class-property']
       }
