@@ -1,6 +1,6 @@
 {
   "name": "@underline/eslint-config-node",
-  "version": "0.13.0",
+  "version": "0.14.0-alpha.0",
   "description": "Underline's shared ESLint config for node",
   "main": "index.js",
   "repository": "https://github.com/underline/eslint-config",
@@ -10,7 +10,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@underline/eslint-config": "^0.13.0",
+    "@underline/eslint-config": "^0.14.0-alpha.0",
     "eslint-plugin-node": "^11.1.0"
   }
 }
