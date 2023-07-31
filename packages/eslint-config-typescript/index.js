@@ -40,10 +40,7 @@ module.exports = {
     '@typescript-eslint/no-require-imports': 'warn',
     '@typescript-eslint/no-this-alias': 'warn',
     '@typescript-eslint/no-unnecessary-qualifier': 'warn',
-    '@typescript-eslint/no-unnecessary-type-assertion': 'warn',
-    '@typescript-eslint/prefer-function-type': 'warn',
-    '@typescript-eslint/require-array-sort-compare': 'warn',
-    '@typescript-eslint/restrict-plus-operands': 'warn'
+    '@typescript-eslint/prefer-function-type': 'warn'
   },
   overrides: [
     {
