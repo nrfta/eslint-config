@@ -16,7 +16,7 @@ module.exports = {
     '@typescript-eslint/parameter-properties': [
       'error',
       {
-        prefer: ['class-property']
+        prefer: 'class-property'
       }
     ],
     '@typescript-eslint/no-unused-vars': [
