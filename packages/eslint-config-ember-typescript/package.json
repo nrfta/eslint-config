@@ -1,6 +1,6 @@
 {
   "name": "@underline/eslint-config-ember-typescript",
-  "version": "0.14.0-alpha.0",
+  "version": "0.14.0-alpha.1",
   "description": "Underline's shared ESLint config for Ember with TypeScript",
   "main": "index.js",
   "repository": "https://github.com/underline/eslint-config",
@@ -11,6 +11,6 @@
   },
   "dependencies": {
     "@underline/eslint-config-ember": "^0.14.0-alpha.0",
-    "@underline/eslint-config-typescript": "^0.14.0-alpha.0"
+    "@underline/eslint-config-typescript": "^0.14.0-alpha.1"
   }
 }
