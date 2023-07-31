@@ -36,7 +36,6 @@ module.exports = {
     '@typescript-eslint/ban-ts-comment': 'warn',
     '@typescript-eslint/array-type': 'warn',
     '@typescript-eslint/no-extraneous-class': 'warn',
-    '@typescript-eslint/no-for-in-array': 'warn',
     '@typescript-eslint/no-require-imports': 'warn',
     '@typescript-eslint/no-this-alias': 'warn',
     '@typescript-eslint/prefer-function-type': 'warn'
