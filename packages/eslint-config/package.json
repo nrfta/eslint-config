@@ -1,6 +1,6 @@
 {
   "name": "@underline/eslint-config",
-  "version": "0.14.0",
+  "version": "0.15.0",
   "description": "Underline's shared ESLint config",
   "repository": "https://github.com/underline/eslint-config",
   "license": "MIT",
