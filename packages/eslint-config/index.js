@@ -1,7 +1,5 @@
 'use strict';
 
-const prettierrc = require('./.prettierrc.js');
-
 module.exports = {
   plugins: ['prettier'],
   extends: ['eslint:recommended', 'plugin:prettier/recommended'],
@@ -14,7 +12,7 @@ module.exports = {
     node: false
   },
   rules: {
-    'prettier/prettier': ['error', prettierrc],
+    'prettier/prettier': ['error', {}, { usePrettierrc: true }],
 
     quotes: [
       'error',
