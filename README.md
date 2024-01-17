@@ -24,7 +24,7 @@ This process is the same for any of the packages included here.
 ### 1. Install plugin
 
 ```shell
-yarn add --dev @underline/eslint-config
+pnpm add --save-dev @underline/eslint-config
 ```
 
 ### 2. Modify your `.eslintrc.js`:

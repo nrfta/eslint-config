@@ -1,9 +1,6 @@
 {
   "name": "root",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
     "lint:js": "eslint ."
   },
@@ -11,5 +8,9 @@
     "eslint": "^8.47.0",
     "lerna": "^7.1.5",
     "typescript": "^5.3.3"
+  },
+  "volta": {
+    "node": "20.10.0",
+    "pnpm": "8.14.0"
   }
 }

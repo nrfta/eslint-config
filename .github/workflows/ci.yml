@@ -5,19 +5,17 @@ on: push
 jobs:
   ci:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      VOLTA_FEATURE_PNPM: true
 
     name: Test
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18.x
-
-      - name: Install Yarn
-        run: npm install -g yarn
+      - uses: actions/checkout@v4
+      - uses: volta-cli/action@v4
 
       - name: Install Dependencies
-        run: yarn install
+        run: pnpm install
 
       - name: Lint JS
-        run: yarn lint:js
+        run: pnpm lint:js
