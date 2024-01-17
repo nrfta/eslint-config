@@ -51,7 +51,7 @@ importers:
         specifier: ^0.15.1
         version: link:../eslint-config-ember
       '@underline/eslint-config-typescript':
-        specifier: ^0.15.1
+        specifier: ^0.15.2
         version: link:../eslint-config-typescript
 
   packages/eslint-config-node:
