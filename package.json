@@ -5,8 +5,8 @@
     "lint:js": "eslint ."
   },
   "devDependencies": {
-    "eslint": "^8.47.0",
-    "lerna": "^7.1.5",
+    "eslint": "^8.56.0",
+    "lerna": "^8.0.2",
     "typescript": "^5.3.3"
   },
   "volta": {
