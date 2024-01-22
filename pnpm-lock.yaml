@@ -36,7 +36,7 @@ importers:
   packages/eslint-config-ember:
     dependencies:
       '@underline/eslint-config':
-        specifier: ^0.15.1
+        specifier: ^0.16.0
         version: link:../eslint-config
       eslint-plugin-ember:
         specifier: ^12.0.0
@@ -45,16 +45,16 @@ importers:
   packages/eslint-config-ember-typescript:
     dependencies:
       '@underline/eslint-config-ember':
-        specifier: ^0.15.1
+        specifier: ^0.16.0
         version: link:../eslint-config-ember
       '@underline/eslint-config-typescript':
-        specifier: ^0.15.2
+        specifier: ^0.16.0
         version: link:../eslint-config-typescript
 
   packages/eslint-config-node:
     dependencies:
       '@underline/eslint-config':
-        specifier: ^0.15.1
+        specifier: ^0.16.0
         version: link:../eslint-config
       eslint-plugin-node:
         specifier: ^11.1.0
@@ -69,7 +69,7 @@ importers:
         specifier: ^6.19.0
         version: 6.19.0(eslint@8.56.0)(typescript@5.3.3)
       '@underline/eslint-config':
-        specifier: ^0.15.1
+        specifier: ^0.16.0
         version: link:../eslint-config
 
 packages:
